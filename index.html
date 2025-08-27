@@ -1,0 +1,863 @@
+<!DOCTYPE html><html lang="en" data-color-scheme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Games - Play 50+ Amazing Online Games</title>
+    <meta name="description" content="Play 50+ free online games including puzzles, arcade, action, and strategy games. No downloads required!">
+    <meta name="keywords" content="online games, free games, puzzle games, arcade games, action games">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;%F0%9F%8E%AE&lt;/text&gt;&lt;/svg&gt;">
+    <link rel="stylesheet" href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Ad Space -->
+    <!-- Google AdSense Header Banner 728x90 - Replace with your ad code -->
+    <div class="ad-container header-ad">
+        <div class="ad-placeholder">Header Ad Space (728x90)</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>🎮 DC Games</h1>
+                <span class="tagline">50+ Amazing Games</span>
+            </div>
+            <div class="nav-controls">
+                <input type="text" id="gameSearch" placeholder="Search games..." class="search-input">
+                <button id="darkModeToggle" class="btn btn--secondary">☀️</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Menu -->
+    <div id="mainMenu" class="screen">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Welcome to DC Games</h2>
+                    <p class="hero-subtitle">Play 50+ premium games online - No downloads, No sign-ups</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Games</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Categories</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Categories Filter -->
+        <div class="container">
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All Games</button>
+                <button class="filter-btn" data-category="puzzle">🧩 Puzzle</button>
+                <button class="filter-btn" data-category="arcade">🕹️ Arcade</button>
+                <button class="filter-btn" data-category="action">⚡ Action</button>
+                <button class="filter-btn" data-category="strategy">🧠 Strategy</button>
+                <button class="filter-btn" data-category="card">🃏 Cards</button>
+            </div>
+
+            <!-- Sidebar Ad Space -->
+            <div class="main-content">
+                <aside class="sidebar">
+                    <!-- Google AdSense Sidebar 300x250 - Replace with your ad code -->
+                    <div class="ad-container sidebar-ad">
+                        <div class="ad-placeholder">Sidebar Ad (300x250)</div>
+                    </div>
+                    
+                    <div class="recently-played">
+                        <h3>Recently Played</h3>
+                        <div id="recentGames" class="recent-games-list">
+                <div class="recent-game-item" data-game="ticTacToe">
+                    <span>⭕</span>
+                    <span>Tic Tac Toe</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="slidingPuzzle">
+                    <span>🧩</span>
+                    <span>Sliding Puzzle</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="chess">
+                    <span>♟️</span>
+                    <span>Chess Mini</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="connectFour">
+                    <span>🔴</span>
+                    <span>Connect Four</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="concentration">
+                    <span>🎯</span>
+                    <span>Concentration</span>
+                </div>
+            </div>
+                    </div>
+
+                    <div class="favorites">
+                        <h3>Favorites ❤️</h3>
+                        <div id="favoriteGames" class="favorite-games-list"><p class="text-secondary">No favorites yet</p></div>
+                    </div>
+                </aside>
+
+                <!-- Games Grid -->
+                <main class="games-section">
+                    <div class="games-grid" id="gamesGrid">
+                        <!-- Puzzle Games -->
+                        <div class="game-card" data-game="ticTacToe" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">⭕</div>
+                                <button class="favorite-btn" data-game="ticTacToe">♡</button>
+                            </div>
+                            <h3>Tic Tac Toe</h3>
+                            <p>Classic 3x3 strategy vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="connectFour" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔴</div>
+                                <button class="favorite-btn" data-game="connectFour">♡</button>
+                            </div>
+                            <h3>Connect Four</h3>
+                            <p>Connect 4 pieces vs smart AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="chess" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">♟️</div>
+                                <button class="favorite-btn" data-game="chess">♡</button>
+                            </div>
+                            <h3>Chess Mini</h3>
+                            <p>Simplified chess vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="checkers" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚫</div>
+                                <button class="favorite-btn" data-game="checkers">♡</button>
+                            </div>
+                            <h3>Checkers</h3>
+                            <p>Classic board game vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="puzzle2048" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔢</div>
+                                <button class="favorite-btn" data-game="puzzle2048">♡</button>
+                            </div>
+                            <h3>2048 Puzzle</h3>
+                            <p>Combine numbers to reach 2048</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="slidingPuzzle" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧩</div>
+                                <button class="favorite-btn" data-game="slidingPuzzle">♡</button>
+                            </div>
+                            <h3>Sliding Puzzle</h3>
+                            <p>Arrange numbers in order</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="memory" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧠</div>
+                                <button class="favorite-btn" data-game="memory">♡</button>
+                            </div>
+                            <h3>Memory Match</h3>
+                            <p>Match pairs of cards</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="sudoku" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔢</div>
+                                <button class="favorite-btn" data-game="sudoku">♡</button>
+                            </div>
+                            <h3>Sudoku</h3>
+                            <p>Number puzzle game</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="crossword" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">📝</div>
+                                <button class="favorite-btn" data-game="crossword">♡</button>
+                            </div>
+                            <h3>Mini Crossword</h3>
+                            <p>Word puzzle challenge</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="wordSearch" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔍</div>
+                                <button class="favorite-btn" data-game="wordSearch">♡</button>
+                            </div>
+                            <h3>Word Search</h3>
+                            <p>Find hidden words</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="jigsaw" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧩</div>
+                                <button class="favorite-btn" data-game="jigsaw">♡</button>
+                            </div>
+                            <h3>Jigsaw Puzzle</h3>
+                            <p>Complete the picture</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="hanoi" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🗼</div>
+                                <button class="favorite-btn" data-game="hanoi">♡</button>
+                            </div>
+                            <h3>Tower of Hanoi</h3>
+                            <p>Move disks to solve puzzle</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="lightsOut" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">💡</div>
+                                <button class="favorite-btn" data-game="lightsOut">♡</button>
+                            </div>
+                            <h3>Lights Out</h3>
+                            <p>Turn off all the lights</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="numberGuessing" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔮</div>
+                                <button class="favorite-btn" data-game="numberGuessing">♡</button>
+                            </div>
+                            <h3>Number Guessing</h3>
+                            <p>Guess the secret number</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="patternMemory" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎨</div>
+                                <button class="favorite-btn" data-game="patternMemory">♡</button>
+                            </div>
+                            <h3>Pattern Memory</h3>
+                            <p>Remember color patterns</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <!-- Arcade Games -->
+                        <div class="game-card" data-game="snake" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐍</div>
+                                <button class="favorite-btn" data-game="snake">♡</button>
+                            </div>
+                            <h3>Snake Classic</h3>
+                            <p>Eat food and grow longer</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="tetris" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎮</div>
+                                <button class="favorite-btn" data-game="tetris">♡</button>
+                            </div>
+                            <h3>Tetris</h3>
+                            <p>Falling blocks puzzle</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="pacman" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🟡</div>
+                                <button class="favorite-btn" data-game="pacman">♡</button>
+                            </div>
+                            <h3>Pac-Man Style</h3>
+                            <p>Collect dots, avoid ghosts</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="spaceInvaders" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">👾</div>
+                                <button class="favorite-btn" data-game="spaceInvaders">♡</button>
+                            </div>
+                            <h3>Space Invaders</h3>
+                            <p>Defend from alien invasion</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="asteroids" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🚀</div>
+                                <button class="favorite-btn" data-game="asteroids">♡</button>
+                            </div>
+                            <h3>Asteroids</h3>
+                            <p>Destroy asteroids in space</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="breakout" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧱</div>
+                                <button class="favorite-btn" data-game="breakout">♡</button>
+                            </div>
+                            <h3>Breakout</h3>
+                            <p>Break bricks with ball</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="pong" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🏓</div>
+                                <button class="favorite-btn" data-game="pong">♡</button>
+                            </div>
+                            <h3>Pong</h3>
+                            <p>Classic paddle ball game</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                                <span class="badge">2 Players</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="centipede" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐛</div>
+                                <button class="favorite-btn" data-game="centipede">♡</button>
+                            </div>
+                            <h3>Centipede</h3>
+                            <p>Shoot the falling centipede</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="frogger" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐸</div>
+                                <button class="favorite-btn" data-game="frogger">♡</button>
+                            </div>
+                            <h3>Frogger Style</h3>
+                            <p>Cross roads avoiding cars</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="missile" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🚀</div>
+                                <button class="favorite-btn" data-game="missile">♡</button>
+                            </div>
+                            <h3>Missile Command</h3>
+                            <p>Defend cities from missiles</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="flappy" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐦</div>
+                                <button class="favorite-btn" data-game="flappy">♡</button>
+                            </div>
+                            <h3>Flappy Bird</h3>
+                            <p>Fly through pipes</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="doodleJump" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🦘</div>
+                                <button class="favorite-btn" data-game="doodleJump">♡</button>
+                            </div>
+                            <h3>Doodle Jump</h3>
+                            <p>Jump as high as possible</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="runner" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🏃</div>
+                                <button class="favorite-btn" data-game="runner">♡</button>
+                            </div>
+                            <h3>Endless Runner</h3>
+                            <p>Jump over obstacles</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="balloonPop" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎈</div>
+                                <button class="favorite-btn" data-game="balloonPop">♡</button>
+                            </div>
+                            <h3>Balloon Pop</h3>
+                            <p>Pop balloons for points</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="duckHunt" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🦆</div>
+                                <button class="favorite-btn" data-game="duckHunt">♡</button>
+                            </div>
+                            <h3>Duck Hunt</h3>
+                            <p>Shoot flying ducks</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <!-- Action Games -->
+                        <div class="game-card" data-game="whackMole" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔨</div>
+                                <button class="favorite-btn" data-game="whackMole">♡</button>
+                            </div>
+                            <h3>Whack-a-Mole</h3>
+                            <p>Hit moles as fast as possible</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="reactionTest" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚡</div>
+                                <button class="favorite-btn" data-game="reactionTest">♡</button>
+                            </div>
+                            <h3>Reaction Test</h3>
+                            <p>Test your reflexes</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="simon" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎵</div>
+                                <button class="favorite-btn" data-game="simon">♡</button>
+                            </div>
+                            <h3>Simon Says</h3>
+                            <p>Repeat color sequences</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="typingSpeed" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">⌨️</div>
+                                <button class="favorite-btn" data-game="typingSpeed">♡</button>
+                            </div>
+                            <h3>Typing Challenge</h3>
+                            <p>Test your typing speed</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="colorMemory" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🌈</div>
+                                <button class="favorite-btn" data-game="colorMemory">♡</button>
+                            </div>
+                            <h3>Color Memory</h3>
+                            <p>Remember color patterns</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="clickChallenge" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">👆</div>
+                                <button class="favorite-btn" data-game="clickChallenge">♡</button>
+                            </div>
+                            <h3>Click Challenge</h3>
+                            <p>Click as fast as possible</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="catchFalling" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="catchFalling">♡</button>
+                            </div>
+                            <h3>Catch Objects</h3>
+                            <p>Catch falling items</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="shootingGallery" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="shootingGallery">♡</button>
+                            </div>
+                            <h3>Shooting Gallery</h3>
+                            <p>Hit moving targets</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="avoidObstacles" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🚫</div>
+                                <button class="favorite-btn" data-game="avoidObstacles">♡</button>
+                            </div>
+                            <h3>Avoid Obstacles</h3>
+                            <p>Dodge falling objects</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="mouseAccuracy" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="mouseAccuracy">♡</button>
+                            </div>
+                            <h3>Mouse Accuracy</h3>
+                            <p>Test pointer precision</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <!-- Strategy Games -->
+                        <div class="game-card" data-game="rockPaperScissors" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">✂️</div>
+                                <button class="favorite-btn" data-game="rockPaperScissors">♡</button>
+                            </div>
+                            <h3>Rock Paper Scissors</h3>
+                            <p>Classic hand game vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="reversi" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚫</div>
+                                <button class="favorite-btn" data-game="reversi">♡</button>
+                            </div>
+                            <h3>Reversi/Othello</h3>
+                            <p>Flip opponent pieces</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="nim" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">🪵</div>
+                                <button class="favorite-btn" data-game="nim">♡</button>
+                            </div>
+                            <h3>Nim Game</h3>
+                            <p>Take sticks strategically</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="dotsAndBoxes" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">⬜</div>
+                                <button class="favorite-btn" data-game="dotsAndBoxes">♡</button>
+                            </div>
+                            <h3>Dots and Boxes</h3>
+                            <p>Draw lines, make boxes</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                                <span class="badge">2 Players</span>
+                            </div>
+                        </div>
+
+                        <!-- Card & Casino Games -->
+                        <div class="game-card" data-game="blackjack" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🃏</div>
+                                <button class="favorite-btn" data-game="blackjack">♡</button>
+                            </div>
+                            <h3>Blackjack</h3>
+                            <p>Get as close to 21</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Dealer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="solitaire" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🂡</div>
+                                <button class="favorite-btn" data-game="solitaire">♡</button>
+                            </div>
+                            <h3>Klondike Solitaire</h3>
+                            <p>Classic card patience</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="war" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚔️</div>
+                                <button class="favorite-btn" data-game="war">♡</button>
+                            </div>
+                            <h3>War Card Game</h3>
+                            <p>Higher card wins</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="goFish" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐠</div>
+                                <button class="favorite-btn" data-game="goFish">♡</button>
+                            </div>
+                            <h3>Go Fish</h3>
+                            <p>Collect card sets</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="memoryNumbers" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔢</div>
+                                <button class="favorite-btn" data-game="memoryNumbers">♡</button>
+                            </div>
+                            <h3>Memory Numbers</h3>
+                            <p>Remember number sequences</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="concentration" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="concentration">♡</button>
+                            </div>
+                            <h3>Concentration</h3>
+                            <p>Match card pairs</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="minesweeper" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">💣</div>
+                                <button class="favorite-btn" data-game="minesweeper">♡</button>
+                            </div>
+                            <h3>Minesweeper</h3>
+                            <p>Avoid hidden mines</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="slotMachine" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎰</div>
+                                <button class="favorite-btn" data-game="slotMachine">♡</button>
+                            </div>
+                            <h3>Slot Machine</h3>
+                            <p>3-reel slot game</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="coinFlip" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🪙</div>
+                                <button class="favorite-btn" data-game="coinFlip">♡</button>
+                            </div>
+                            <h3>Coin Flip Predictor</h3>
+                            <p>Predict heads or tails</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="diceRoll" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎲</div>
+                                <button class="favorite-btn" data-game="diceRoll">♡</button>
+                            </div>
+                            <h3>Dice Simulator</h3>
+                            <p>Virtual dice rolling</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="bingo" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🅱️</div>
+                                <button class="favorite-btn" data-game="bingo">♡</button>
+                            </div>
+                            <h3>Bingo Generator</h3>
+                            <p>Generate bingo cards</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Between Games Ad Space -->
+                    <div class="ad-container between-games-ad">
+                        <div class="ad-placeholder">Between Games Ad (728x90)</div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="gameScreen" class="screen hidden">
+        <div class="container">
+            <div class="game-header">
+                <button id="backBtn" class="btn btn--secondary">← Back to Games</button>
+                <div class="game-header-center">
+                    <h2 id="gameTitle">Game</h2>
+                    <div class="game-mode-selector hidden" id="gameModeSelector">
+                        <button class="btn btn--outline" id="singlePlayerBtn">Single Player</button>
+                        <button class="btn btn--outline" id="twoPlayerBtn">2 Players</button>
+                        <button class="btn btn--outline" id="vsComputerBtn">VS Computer</button>
+                    </div>
+                </div>
+                <div class="game-header-right">
+                    <div id="gameScore" class="score">Score: 0</div>
+                    <div id="gameTimer" class="timer hidden">Time: 0:00</div>
+                </div>
+            </div>
+            <div id="gameContainer" class="game-container">
+                <!-- Game content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer Ad Space -->
+            <div class="ad-container footer-ad">
+                <div class="ad-placeholder">Footer Ad (728x90)</div>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DC Games</h3>
+                    <p>Your premier destination for free online games. No downloads, no sign-ups required.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="puzzle">Puzzle Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="arcade">Arcade Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="action">Action Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="strategy">Strategy Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="card">Card Games</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>contacts</h4>
+                    <p></p>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 DC Games. Site is owned by Devesh Choudhary</p>
+                <p>Built with passion for gaming enthusiasts worldwide</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body></html>
