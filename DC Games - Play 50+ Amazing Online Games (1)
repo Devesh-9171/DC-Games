@@ -1,0 +1,1348 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity
+Subject: DC Games - Play 50+ Amazing Online Games
+Date: Sun, 24 Aug 2025 15:20:08 +0530
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--zqb1YGpZ19kNKTpBkB71J0a5fP4PP9FEzah1b1e9vw----"
+
+
+------MultipartBoundary--zqb1YGpZ19kNKTpBkB71J0a5fP4PP9FEzah1b1e9vw----
+Content-Type: text/html
+Content-ID: <frame-B23464341EFA7CCA52AFA472934CF933@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity
+
+<!DOCTYPE html><html lang="en" data-color-scheme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Games - Play 50+ Amazing Online Games</title>
+    <meta name="description" content="Play 50+ free online games including puzzles, arcade, action, and strategy games. No downloads required!">
+    <meta name="keywords" content="online games, free games, puzzle games, arcade games, action games">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;%F0%9F%8E%AE&lt;/text&gt;&lt;/svg&gt;">
+    <link rel="stylesheet" href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/style.css">
+</head>
+<body>
+    <!-- Header Ad Space -->
+    <!-- Google AdSense Header Banner 728x90 - Replace with your ad code -->
+    <div class="ad-container header-ad">
+        <div class="ad-placeholder">Header Ad Space (728x90)</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>🎮 DC Games</h1>
+                <span class="tagline">50+ Amazing Games</span>
+            </div>
+            <div class="nav-controls">
+                <input type="text" id="gameSearch" placeholder="Search games..." class="search-input">
+                <button id="darkModeToggle" class="btn btn--secondary">☀️</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Menu -->
+    <div id="mainMenu" class="screen">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2 class="hero-title">Welcome to DC Games</h2>
+                    <p class="hero-subtitle">Play 50+ premium games online - No downloads, No sign-ups</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Games</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Categories</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Free</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Categories Filter -->
+        <div class="container">
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All Games</button>
+                <button class="filter-btn" data-category="puzzle">🧩 Puzzle</button>
+                <button class="filter-btn" data-category="arcade">🕹️ Arcade</button>
+                <button class="filter-btn" data-category="action">⚡ Action</button>
+                <button class="filter-btn" data-category="strategy">🧠 Strategy</button>
+                <button class="filter-btn" data-category="card">🃏 Cards</button>
+            </div>
+
+            <!-- Sidebar Ad Space -->
+            <div class="main-content">
+                <aside class="sidebar">
+                    <!-- Google AdSense Sidebar 300x250 - Replace with your ad code -->
+                    <div class="ad-container sidebar-ad">
+                        <div class="ad-placeholder">Sidebar Ad (300x250)</div>
+                    </div>
+                    
+                    <div class="recently-played">
+                        <h3>Recently Played</h3>
+                        <div id="recentGames" class="recent-games-list">
+                <div class="recent-game-item" data-game="ticTacToe">
+                    <span>⭕</span>
+                    <span>Tic Tac Toe</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="slidingPuzzle">
+                    <span>🧩</span>
+                    <span>Sliding Puzzle</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="chess">
+                    <span>♟️</span>
+                    <span>Chess Mini</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="connectFour">
+                    <span>🔴</span>
+                    <span>Connect Four</span>
+                </div>
+            
+                <div class="recent-game-item" data-game="concentration">
+                    <span>🎯</span>
+                    <span>Concentration</span>
+                </div>
+            </div>
+                    </div>
+
+                    <div class="favorites">
+                        <h3>Favorites ❤️</h3>
+                        <div id="favoriteGames" class="favorite-games-list"><p class="text-secondary">No favorites yet</p></div>
+                    </div>
+                </aside>
+
+                <!-- Games Grid -->
+                <main class="games-section">
+                    <div class="games-grid" id="gamesGrid">
+                        <!-- Puzzle Games -->
+                        <div class="game-card" data-game="ticTacToe" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">⭕</div>
+                                <button class="favorite-btn" data-game="ticTacToe">♡</button>
+                            </div>
+                            <h3>Tic Tac Toe</h3>
+                            <p>Classic 3x3 strategy vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="connectFour" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔴</div>
+                                <button class="favorite-btn" data-game="connectFour">♡</button>
+                            </div>
+                            <h3>Connect Four</h3>
+                            <p>Connect 4 pieces vs smart AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="chess" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">♟️</div>
+                                <button class="favorite-btn" data-game="chess">♡</button>
+                            </div>
+                            <h3>Chess Mini</h3>
+                            <p>Simplified chess vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="checkers" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚫</div>
+                                <button class="favorite-btn" data-game="checkers">♡</button>
+                            </div>
+                            <h3>Checkers</h3>
+                            <p>Classic board game vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="puzzle2048" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔢</div>
+                                <button class="favorite-btn" data-game="puzzle2048">♡</button>
+                            </div>
+                            <h3>2048 Puzzle</h3>
+                            <p>Combine numbers to reach 2048</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="slidingPuzzle" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧩</div>
+                                <button class="favorite-btn" data-game="slidingPuzzle">♡</button>
+                            </div>
+                            <h3>Sliding Puzzle</h3>
+                            <p>Arrange numbers in order</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="memory" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧠</div>
+                                <button class="favorite-btn" data-game="memory">♡</button>
+                            </div>
+                            <h3>Memory Match</h3>
+                            <p>Match pairs of cards</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="sudoku" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔢</div>
+                                <button class="favorite-btn" data-game="sudoku">♡</button>
+                            </div>
+                            <h3>Sudoku</h3>
+                            <p>Number puzzle game</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="crossword" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">📝</div>
+                                <button class="favorite-btn" data-game="crossword">♡</button>
+                            </div>
+                            <h3>Mini Crossword</h3>
+                            <p>Word puzzle challenge</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="wordSearch" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔍</div>
+                                <button class="favorite-btn" data-game="wordSearch">♡</button>
+                            </div>
+                            <h3>Word Search</h3>
+                            <p>Find hidden words</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="jigsaw" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧩</div>
+                                <button class="favorite-btn" data-game="jigsaw">♡</button>
+                            </div>
+                            <h3>Jigsaw Puzzle</h3>
+                            <p>Complete the picture</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="hanoi" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🗼</div>
+                                <button class="favorite-btn" data-game="hanoi">♡</button>
+                            </div>
+                            <h3>Tower of Hanoi</h3>
+                            <p>Move disks to solve puzzle</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="lightsOut" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">💡</div>
+                                <button class="favorite-btn" data-game="lightsOut">♡</button>
+                            </div>
+                            <h3>Lights Out</h3>
+                            <p>Turn off all the lights</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="numberGuessing" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔮</div>
+                                <button class="favorite-btn" data-game="numberGuessing">♡</button>
+                            </div>
+                            <h3>Number Guessing</h3>
+                            <p>Guess the secret number</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="patternMemory" data-category="puzzle">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎨</div>
+                                <button class="favorite-btn" data-game="patternMemory">♡</button>
+                            </div>
+                            <h3>Pattern Memory</h3>
+                            <p>Remember color patterns</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <!-- Arcade Games -->
+                        <div class="game-card" data-game="snake" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐍</div>
+                                <button class="favorite-btn" data-game="snake">♡</button>
+                            </div>
+                            <h3>Snake Classic</h3>
+                            <p>Eat food and grow longer</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="tetris" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎮</div>
+                                <button class="favorite-btn" data-game="tetris">♡</button>
+                            </div>
+                            <h3>Tetris</h3>
+                            <p>Falling blocks puzzle</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="pacman" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🟡</div>
+                                <button class="favorite-btn" data-game="pacman">♡</button>
+                            </div>
+                            <h3>Pac-Man Style</h3>
+                            <p>Collect dots, avoid ghosts</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="spaceInvaders" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">👾</div>
+                                <button class="favorite-btn" data-game="spaceInvaders">♡</button>
+                            </div>
+                            <h3>Space Invaders</h3>
+                            <p>Defend from alien invasion</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="asteroids" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🚀</div>
+                                <button class="favorite-btn" data-game="asteroids">♡</button>
+                            </div>
+                            <h3>Asteroids</h3>
+                            <p>Destroy asteroids in space</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="breakout" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🧱</div>
+                                <button class="favorite-btn" data-game="breakout">♡</button>
+                            </div>
+                            <h3>Breakout</h3>
+                            <p>Break bricks with ball</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="pong" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🏓</div>
+                                <button class="favorite-btn" data-game="pong">♡</button>
+                            </div>
+                            <h3>Pong</h3>
+                            <p>Classic paddle ball game</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                                <span class="badge">2 Players</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="centipede" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐛</div>
+                                <button class="favorite-btn" data-game="centipede">♡</button>
+                            </div>
+                            <h3>Centipede</h3>
+                            <p>Shoot the falling centipede</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="frogger" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐸</div>
+                                <button class="favorite-btn" data-game="frogger">♡</button>
+                            </div>
+                            <h3>Frogger Style</h3>
+                            <p>Cross roads avoiding cars</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="missile" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🚀</div>
+                                <button class="favorite-btn" data-game="missile">♡</button>
+                            </div>
+                            <h3>Missile Command</h3>
+                            <p>Defend cities from missiles</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="flappy" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐦</div>
+                                <button class="favorite-btn" data-game="flappy">♡</button>
+                            </div>
+                            <h3>Flappy Bird</h3>
+                            <p>Fly through pipes</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="doodleJump" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🦘</div>
+                                <button class="favorite-btn" data-game="doodleJump">♡</button>
+                            </div>
+                            <h3>Doodle Jump</h3>
+                            <p>Jump as high as possible</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="runner" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🏃</div>
+                                <button class="favorite-btn" data-game="runner">♡</button>
+                            </div>
+                            <h3>Endless Runner</h3>
+                            <p>Jump over obstacles</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="balloonPop" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎈</div>
+                                <button class="favorite-btn" data-game="balloonPop">♡</button>
+                            </div>
+                            <h3>Balloon Pop</h3>
+                            <p>Pop balloons for points</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="duckHunt" data-category="arcade">
+                            <div class="game-card-header">
+                                <div class="game-icon">🦆</div>
+                                <button class="favorite-btn" data-game="duckHunt">♡</button>
+                            </div>
+                            <h3>Duck Hunt</h3>
+                            <p>Shoot flying ducks</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <!-- Action Games -->
+                        <div class="game-card" data-game="whackMole" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔨</div>
+                                <button class="favorite-btn" data-game="whackMole">♡</button>
+                            </div>
+                            <h3>Whack-a-Mole</h3>
+                            <p>Hit moles as fast as possible</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="reactionTest" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚡</div>
+                                <button class="favorite-btn" data-game="reactionTest">♡</button>
+                            </div>
+                            <h3>Reaction Test</h3>
+                            <p>Test your reflexes</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="simon" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎵</div>
+                                <button class="favorite-btn" data-game="simon">♡</button>
+                            </div>
+                            <h3>Simon Says</h3>
+                            <p>Repeat color sequences</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="typingSpeed" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">⌨️</div>
+                                <button class="favorite-btn" data-game="typingSpeed">♡</button>
+                            </div>
+                            <h3>Typing Challenge</h3>
+                            <p>Test your typing speed</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="colorMemory" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🌈</div>
+                                <button class="favorite-btn" data-game="colorMemory">♡</button>
+                            </div>
+                            <h3>Color Memory</h3>
+                            <p>Remember color patterns</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="clickChallenge" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">👆</div>
+                                <button class="favorite-btn" data-game="clickChallenge">♡</button>
+                            </div>
+                            <h3>Click Challenge</h3>
+                            <p>Click as fast as possible</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="catchFalling" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="catchFalling">♡</button>
+                            </div>
+                            <h3>Catch Objects</h3>
+                            <p>Catch falling items</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="shootingGallery" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="shootingGallery">♡</button>
+                            </div>
+                            <h3>Shooting Gallery</h3>
+                            <p>Hit moving targets</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="avoidObstacles" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🚫</div>
+                                <button class="favorite-btn" data-game="avoidObstacles">♡</button>
+                            </div>
+                            <h3>Avoid Obstacles</h3>
+                            <p>Dodge falling objects</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="mouseAccuracy" data-category="action">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="mouseAccuracy">♡</button>
+                            </div>
+                            <h3>Mouse Accuracy</h3>
+                            <p>Test pointer precision</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <!-- Strategy Games -->
+                        <div class="game-card" data-game="rockPaperScissors" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">✂️</div>
+                                <button class="favorite-btn" data-game="rockPaperScissors">♡</button>
+                            </div>
+                            <h3>Rock Paper Scissors</h3>
+                            <p>Classic hand game vs AI</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="reversi" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚫</div>
+                                <button class="favorite-btn" data-game="reversi">♡</button>
+                            </div>
+                            <h3>Reversi/Othello</h3>
+                            <p>Flip opponent pieces</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="nim" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">🪵</div>
+                                <button class="favorite-btn" data-game="nim">♡</button>
+                            </div>
+                            <h3>Nim Game</h3>
+                            <p>Take sticks strategically</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="dotsAndBoxes" data-category="strategy">
+                            <div class="game-card-header">
+                                <div class="game-icon">⬜</div>
+                                <button class="favorite-btn" data-game="dotsAndBoxes">♡</button>
+                            </div>
+                            <h3>Dots and Boxes</h3>
+                            <p>Draw lines, make boxes</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                                <span class="badge">2 Players</span>
+                            </div>
+                        </div>
+
+                        <!-- Card & Casino Games -->
+                        <div class="game-card" data-game="blackjack" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🃏</div>
+                                <button class="favorite-btn" data-game="blackjack">♡</button>
+                            </div>
+                            <h3>Blackjack</h3>
+                            <p>Get as close to 21</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Dealer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="solitaire" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🂡</div>
+                                <button class="favorite-btn" data-game="solitaire">♡</button>
+                            </div>
+                            <h3>Klondike Solitaire</h3>
+                            <p>Classic card patience</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="war" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">⚔️</div>
+                                <button class="favorite-btn" data-game="war">♡</button>
+                            </div>
+                            <h3>War Card Game</h3>
+                            <p>Higher card wins</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="goFish" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🐠</div>
+                                <button class="favorite-btn" data-game="goFish">♡</button>
+                            </div>
+                            <h3>Go Fish</h3>
+                            <p>Collect card sets</p>
+                            <div class="game-badges">
+                                <span class="badge">VS Computer</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="memoryNumbers" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🔢</div>
+                                <button class="favorite-btn" data-game="memoryNumbers">♡</button>
+                            </div>
+                            <h3>Memory Numbers</h3>
+                            <p>Remember number sequences</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="concentration" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎯</div>
+                                <button class="favorite-btn" data-game="concentration">♡</button>
+                            </div>
+                            <h3>Concentration</h3>
+                            <p>Match card pairs</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="minesweeper" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">💣</div>
+                                <button class="favorite-btn" data-game="minesweeper">♡</button>
+                            </div>
+                            <h3>Minesweeper</h3>
+                            <p>Avoid hidden mines</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="slotMachine" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎰</div>
+                                <button class="favorite-btn" data-game="slotMachine">♡</button>
+                            </div>
+                            <h3>Slot Machine</h3>
+                            <p>3-reel slot game</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="coinFlip" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🪙</div>
+                                <button class="favorite-btn" data-game="coinFlip">♡</button>
+                            </div>
+                            <h3>Coin Flip Predictor</h3>
+                            <p>Predict heads or tails</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="diceRoll" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🎲</div>
+                                <button class="favorite-btn" data-game="diceRoll">♡</button>
+                            </div>
+                            <h3>Dice Simulator</h3>
+                            <p>Virtual dice rolling</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+
+                        <div class="game-card" data-game="bingo" data-category="card">
+                            <div class="game-card-header">
+                                <div class="game-icon">🅱️</div>
+                                <button class="favorite-btn" data-game="bingo">♡</button>
+                            </div>
+                            <h3>Bingo Generator</h3>
+                            <p>Generate bingo cards</p>
+                            <div class="game-badges">
+                                <span class="badge">Single Player</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Between Games Ad Space -->
+                    <div class="ad-container between-games-ad">
+                        <div class="ad-placeholder">Between Games Ad (728x90)</div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="gameScreen" class="screen hidden">
+        <div class="container">
+            <div class="game-header">
+                <button id="backBtn" class="btn btn--secondary">← Back to Games</button>
+                <div class="game-header-center">
+                    <h2 id="gameTitle">Game</h2>
+                    <div class="game-mode-selector hidden" id="gameModeSelector">
+                        <button class="btn btn--outline" id="singlePlayerBtn">Single Player</button>
+                        <button class="btn btn--outline" id="twoPlayerBtn">2 Players</button>
+                        <button class="btn btn--outline" id="vsComputerBtn">VS Computer</button>
+                    </div>
+                </div>
+                <div class="game-header-right">
+                    <div id="gameScore" class="score">Score: 0</div>
+                    <div id="gameTimer" class="timer hidden">Time: 0:00</div>
+                </div>
+            </div>
+            <div id="gameContainer" class="game-container">
+                <!-- Game content will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer Ad Space -->
+            <div class="ad-container footer-ad">
+                <div class="ad-placeholder">Footer Ad (728x90)</div>
+            </div>
+            
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DC Games</h3>
+                    <p>Your premier destination for free online games. No downloads, no sign-ups required.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="puzzle">Puzzle Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="arcade">Arcade Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="action">Action Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="strategy">Strategy Games</a></li>
+                        <li><a href="https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/index.html?utm_source=perplexity#" data-category="card">Card Games</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>contacts</h4>
+                    <p></p>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 DC Games. Site is owned by Devesh Choudhary</p>
+                <p>Built with passion for gaming enthusiasts worldwide</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+</body></html>
+------MultipartBoundary--zqb1YGpZ19kNKTpBkB71J0a5fP4PP9FEzah1b1e9vw----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/c08730928ff30319fb038cbe04b48264/e3ed5238-6f5f-4358-b6cd-dd4af701373a/style.css
+
+@charset "utf-8";
+
+:root { --color-white: rgba(255, 255, 255, 1); --color-black: rgba(0, 0, 0, 1); --color-cream-50: rgba(252, 252, 249, 1); --color-cream-100: rgba(255, 255, 253, 1); --color-gray-200: rgba(245, 245, 245, 1); --color-gray-300: rgba(167, 169, 169, 1); --color-gray-400: rgba(119, 124, 124, 1); --color-slate-500: rgba(98, 108, 113, 1); --color-brown-600: rgba(94, 82, 64, 1); --color-charcoal-700: rgba(31, 33, 33, 1); --color-charcoal-800: rgba(38, 40, 40, 1); --color-slate-900: rgba(19, 52, 59, 1); --color-teal-300: rgba(50, 184, 198, 1); --color-teal-400: rgba(45, 166, 178, 1); --color-teal-500: rgba(33, 128, 141, 1); --color-teal-600: rgba(29, 116, 128, 1); --color-teal-700: rgba(26, 104, 115, 1); --color-teal-800: rgba(41, 150, 161, 1); --color-red-400: rgba(255, 84, 89, 1); --color-red-500: rgba(192, 21, 47, 1); --color-orange-400: rgba(230, 129, 97, 1); --color-orange-500: rgba(168, 75, 47, 1); --color-brown-600-rgb: 94, 82, 64; --color-teal-500-rgb: 33, 128, 141; --color-slate-900-rgb: 19, 52, 59; --color-slate-500-rgb: 98, 108, 113; --color-red-500-rgb: 192, 21, 47; --color-red-400-rgb: 255, 84, 89; --color-orange-500-rgb: 168, 75, 47; --color-orange-400-rgb: 230, 129, 97; --color-bg-1: rgba(59, 130, 246, 0.08); --color-bg-2: rgba(245, 158, 11, 0.08); --color-bg-3: rgba(34, 197, 94, 0.08); --color-bg-4: rgba(239, 68, 68, 0.08); --color-bg-5: rgba(147, 51, 234, 0.08); --color-bg-6: rgba(249, 115, 22, 0.08); --color-bg-7: rgba(236, 72, 153, 0.08); --color-bg-8: rgba(6, 182, 212, 0.08); --color-background: var(--color-cream-50); --color-surface: var(--color-cream-100); --color-text: var(--color-slate-900); --color-text-secondary: var(--color-slate-500); --color-primary: var(--color-teal-500); --color-primary-hover: var(--color-teal-600); --color-primary-active: var(--color-teal-700); --color-secondary: rgba(var(--color-brown-600-rgb), 0.12); --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2); --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25); --color-border: rgba(var(--color-brown-600-rgb), 0.2); --color-btn-primary-text: var(--color-cream-50); --color-card-border: rgba(var(--color-brown-600-rgb), 0.12); --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12); --color-error: var(--color-red-500); --color-success: var(--color-teal-500); --color-warning: var(--color-orange-500); --color-info: var(--color-slate-500); --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4); --color-select-caret: rgba(var(--color-slate-900-rgb), 0.8); --focus-ring: 0 0 0 3px var(--color-focus-ring); --focus-outline: 2px solid var(--color-primary); --status-bg-opacity: 0.15; --status-border-opacity: 0.25; --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); --color-success-rgb: 33, 128, 141; --color-error-rgb: 192, 21, 47; --color-warning-rgb: 168, 75, 47; --color-info-rgb: 98, 108, 113; --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo,
+    Monaco, Consolas, monospace; --font-size-xs: 11px; --font-size-sm: 12px; --font-size-base: 14px; --font-size-md: 14px; --font-size-lg: 16px; --font-size-xl: 18px; --font-size-2xl: 20px; --font-size-3xl: 24px; --font-size-4xl: 30px; --font-weight-normal: 400; --font-weight-medium: 500; --font-weight-semibold: 550; --font-weight-bold: 600; --line-height-tight: 1.2; --line-height-normal: 1.5; --letter-spacing-tight: -0.01em; --space-0: 0; --space-1: 1px; --space-2: 2px; --space-4: 4px; --space-6: 6px; --space-8: 8px; --space-10: 10px; --space-12: 12px; --space-16: 16px; --space-20: 20px; --space-24: 24px; --space-32: 32px; --radius-sm: 6px; --radius-base: 8px; --radius-md: 10px; --radius-lg: 12px; --radius-full: 9999px; --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02); --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02); --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04),
+    0 2px 4px -1px rgba(0, 0, 0, 0.02); --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04),
+    0 4px 6px -2px rgba(0, 0, 0, 0.02); --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.03); --duration-fast: 150ms; --duration-normal: 250ms; --ease-standard: cubic-bezier(0.16, 1, 0.3, 1); --container-sm: 640px; --container-md: 768px; --container-lg: 1024px; --container-xl: 1280px; }
+
+@media (prefers-color-scheme: dark) {
+  :root { --color-gray-400-rgb: 119, 124, 124; --color-teal-300-rgb: 50, 184, 198; --color-gray-300-rgb: 167, 169, 169; --color-gray-200-rgb: 245, 245, 245; --color-bg-1: rgba(29, 78, 216, 0.15); --color-bg-2: rgba(180, 83, 9, 0.15); --color-bg-3: rgba(21, 128, 61, 0.15); --color-bg-4: rgba(185, 28, 28, 0.15); --color-bg-5: rgba(107, 33, 168, 0.15); --color-bg-6: rgba(194, 65, 12, 0.15); --color-bg-7: rgba(190, 24, 93, 0.15); --color-bg-8: rgba(8, 145, 178, 0.15); --color-background: var(--color-charcoal-700); --color-surface: var(--color-charcoal-800); --color-text: var(--color-gray-200); --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7); --color-primary: var(--color-teal-300); --color-primary-hover: var(--color-teal-400); --color-primary-active: var(--color-teal-800); --color-secondary: rgba(var(--color-gray-400-rgb), 0.15); --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25); --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3); --color-border: rgba(var(--color-gray-400-rgb), 0.3); --color-error: var(--color-red-400); --color-success: var(--color-teal-300); --color-warning: var(--color-orange-400); --color-info: var(--color-gray-300); --color-focus-ring: rgba(var(--color-teal-300-rgb), 0.4); --color-btn-primary-text: var(--color-slate-900); --color-card-border: rgba(var(--color-gray-400-rgb), 0.2); --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15); --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.15); --button-border-secondary: rgba(var(--color-gray-400-rgb), 0.2); --color-border-secondary: rgba(var(--color-gray-400-rgb), 0.2); --color-select-caret: rgba(var(--color-gray-200-rgb), 0.8); --focus-ring: 0 0 0 3px var(--color-focus-ring); --focus-outline: 2px solid var(--color-primary); --status-bg-opacity: 0.15; --status-border-opacity: 0.25; --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); --color-success-rgb: var(--color-teal-300-rgb); --color-error-rgb: var(--color-red-400-rgb); --color-warning-rgb: var(--color-orange-400-rgb); --color-info-rgb: var(--color-gray-300-rgb); }
+}
+
+[data-color-scheme="dark"] { --color-gray-400-rgb: 119, 124, 124; --color-teal-300-rgb: 50, 184, 198; --color-gray-300-rgb: 167, 169, 169; --color-gray-200-rgb: 245, 245, 245; --color-bg-1: rgba(29, 78, 216, 0.15); --color-bg-2: rgba(180, 83, 9, 0.15); --color-bg-3: rgba(21, 128, 61, 0.15); --color-bg-4: rgba(185, 28, 28, 0.15); --color-bg-5: rgba(107, 33, 168, 0.15); --color-bg-6: rgba(194, 65, 12, 0.15); --color-bg-7: rgba(190, 24, 93, 0.15); --color-bg-8: rgba(8, 145, 178, 0.15); --color-background: var(--color-charcoal-700); --color-surface: var(--color-charcoal-800); --color-text: var(--color-gray-200); --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7); --color-primary: var(--color-teal-300); --color-primary-hover: var(--color-teal-400); --color-primary-active: var(--color-teal-800); --color-secondary: rgba(var(--color-gray-400-rgb), 0.15); --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25); --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3); --color-border: rgba(var(--color-gray-400-rgb), 0.3); --color-error: var(--color-red-400); --color-success: var(--color-teal-300); --color-warning: var(--color-orange-400); --color-info: var(--color-gray-300); --color-focus-ring: rgba(var(--color-teal-300-rgb), 0.4); --color-btn-primary-text: var(--color-slate-900); --color-card-border: rgba(var(--color-gray-400-rgb), 0.15); --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15); --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.15); --color-border-secondary: rgba(var(--color-gray-400-rgb), 0.2); --color-select-caret: rgba(var(--color-gray-200-rgb), 0.8); --focus-ring: 0 0 0 3px var(--color-focus-ring); --focus-outline: 2px solid var(--color-primary); --status-bg-opacity: 0.15; --status-border-opacity: 0.25; --select-caret-light: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23134252' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); --select-caret-dark: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23f5f5f5' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); --color-success-rgb: var(--color-teal-300-rgb); --color-error-rgb: var(--color-red-400-rgb); --color-warning-rgb: var(--color-orange-400-rgb); --color-info-rgb: var(--color-gray-300-rgb); }
+
+[data-color-scheme="light"] { --color-brown-600-rgb: 94, 82, 64; --color-teal-500-rgb: 33, 128, 141; --color-slate-900-rgb: 19, 52, 59; --color-background: var(--color-cream-50); --color-surface: var(--color-cream-100); --color-text: var(--color-slate-900); --color-text-secondary: var(--color-slate-500); --color-primary: var(--color-teal-500); --color-primary-hover: var(--color-teal-600); --color-primary-active: var(--color-teal-700); --color-secondary: rgba(var(--color-brown-600-rgb), 0.12); --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2); --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25); --color-border: rgba(var(--color-brown-600-rgb), 0.2); --color-btn-primary-text: var(--color-cream-50); --color-card-border: rgba(var(--color-brown-600-rgb), 0.12); --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12); --color-error: var(--color-red-500); --color-success: var(--color-teal-500); --color-warning: var(--color-orange-500); --color-info: var(--color-slate-500); --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4); --color-success-rgb: var(--color-teal-500-rgb); --color-error-rgb: var(--color-red-500-rgb); --color-warning-rgb: var(--color-orange-500-rgb); --color-info-rgb: var(--color-slate-500-rgb); }
+
+html { font-size: var(--font-size-base); font-family: var(--font-family-base); line-height: var(--line-height-normal); color: var(--color-text); background-color: var(--color-background); -webkit-font-smoothing: antialiased; box-sizing: border-box; }
+
+body { margin: 0px; padding: 0px; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0px; font-weight: var(--font-weight-semibold); line-height: var(--line-height-tight); color: var(--color-text); letter-spacing: var(--letter-spacing-tight); }
+
+h1 { font-size: var(--font-size-4xl); }
+
+h2 { font-size: var(--font-size-3xl); }
+
+h3 { font-size: var(--font-size-2xl); }
+
+h4 { font-size: var(--font-size-xl); }
+
+h5 { font-size: var(--font-size-lg); }
+
+h6 { font-size: var(--font-size-md); }
+
+p { margin: 0 0 var(--space-16) 0; }
+
+a { color: var(--color-primary); text-decoration: none; transition: color var(--duration-fast) var(--ease-standard); }
+
+a:hover { color: var(--color-primary-hover); }
+
+code, pre { font-family: var(--font-family-mono); font-size: calc(var(--font-size-base) * 0.95); background-color: var(--color-secondary); border-radius: var(--radius-sm); }
+
+code { padding: var(--space-1) var(--space-4); }
+
+pre { padding: var(--space-16); margin: var(--space-16) 0; overflow: auto; border: 1px solid var(--color-border); }
+
+pre code { background: none; padding: 0px; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; padding: var(--space-8) var(--space-16); border-radius: var(--radius-base); font-size: var(--font-size-base); font-weight: 500; line-height: 1.5; cursor: pointer; transition: all var(--duration-normal) var(--ease-standard); border: none; text-decoration: none; position: relative; }
+
+.btn:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+.btn--primary { background: var(--color-primary); color: var(--color-btn-primary-text); }
+
+.btn--primary:hover { background: var(--color-primary-hover); }
+
+.btn--primary:active { background: var(--color-primary-active); }
+
+.btn--secondary { background: var(--color-secondary); color: var(--color-text); }
+
+.btn--secondary:hover { background: var(--color-secondary-hover); }
+
+.btn--secondary:active { background: var(--color-secondary-active); }
+
+.btn--outline { background: transparent; border: 1px solid var(--color-border); color: var(--color-text); }
+
+.btn--outline:hover { background: var(--color-secondary); }
+
+.btn--sm { padding: var(--space-4) var(--space-12); font-size: var(--font-size-sm); border-radius: var(--radius-sm); }
+
+.btn--lg { padding: var(--space-10) var(--space-20); font-size: var(--font-size-lg); border-radius: var(--radius-md); }
+
+.btn--full-width { width: 100%; }
+
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.form-control { display: block; width: 100%; padding: var(--space-8) var(--space-12); font-size: var(--font-size-md); line-height: 1.5; color: var(--color-text); background-color: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-base); transition: border-color var(--duration-fast) var(--ease-standard),
+    box-shadow var(--duration-fast) var(--ease-standard); }
+
+textarea.form-control { font-family: var(--font-family-base); font-size: var(--font-size-base); }
+
+select.form-control { padding-top: ; padding-bottom: ; padding-left: ; appearance: none; background-image: var(--select-caret-light); background-repeat: no-repeat; background-position: right var(--space-12) center; background-size: 16px; padding-right: var(--space-32); }
+
+@media (prefers-color-scheme: dark) {
+  select.form-control { background-image: var(--select-caret-dark); }
+}
+
+[data-color-scheme="dark"] select.form-control { background-image: var(--select-caret-dark); }
+
+[data-color-scheme="light"] select.form-control { background-image: var(--select-caret-light); }
+
+.form-control:focus { border-color: var(--color-primary); outline: var(--focus-outline); }
+
+.form-label { display: block; margin-bottom: var(--space-8); font-weight: var(--font-weight-medium); font-size: var(--font-size-sm); }
+
+.form-group { margin-bottom: var(--space-16); }
+
+.card { background-color: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-card-border); box-shadow: var(--shadow-sm); overflow: hidden; transition: box-shadow var(--duration-normal) var(--ease-standard); }
+
+.card:hover { box-shadow: var(--shadow-md); }
+
+.card__body { padding: var(--space-16); }
+
+.card__header, .card__footer { padding: var(--space-16); border-bottom: 1px solid var(--color-card-border-inner); }
+
+.status { display: inline-flex; align-items: center; padding: var(--space-6) var(--space-12); border-radius: var(--radius-full); font-weight: var(--font-weight-medium); font-size: var(--font-size-sm); }
+
+.status--success { background-color: rgba(
+    var(--color-success-rgb, 33, 128, 141),
+    var(--status-bg-opacity)
+  ); color: var(--color-success); border: 1px solid
+    rgba(var(--color-success-rgb, 33, 128, 141), var(--status-border-opacity)); }
+
+.status--error { background-color: rgba(
+    var(--color-error-rgb, 192, 21, 47),
+    var(--status-bg-opacity)
+  ); color: var(--color-error); border: 1px solid
+    rgba(var(--color-error-rgb, 192, 21, 47), var(--status-border-opacity)); }
+
+.status--warning { background-color: rgba(
+    var(--color-warning-rgb, 168, 75, 47),
+    var(--status-bg-opacity)
+  ); color: var(--color-warning); border: 1px solid
+    rgba(var(--color-warning-rgb, 168, 75, 47), var(--status-border-opacity)); }
+
+.status--info { background-color: rgba(
+    var(--color-info-rgb, 98, 108, 113),
+    var(--status-bg-opacity)
+  ); color: var(--color-info); border: 1px solid
+    rgba(var(--color-info-rgb, 98, 108, 113), var(--status-border-opacity)); }
+
+.container { width: 100%; margin-right: auto; margin-left: auto; padding-right: var(--space-16); padding-left: var(--space-16); }
+
+@media (min-width: 640px) {
+  .container { max-width: var(--container-sm); }
+}
+
+@media (min-width: 768px) {
+  .container { max-width: var(--container-md); }
+}
+
+@media (min-width: 1024px) {
+  .container { max-width: var(--container-lg); }
+}
+
+@media (min-width: 1280px) {
+  .container { max-width: var(--container-xl); }
+}
+
+.flex { display: flex; }
+
+.flex-col { flex-direction: column; }
+
+.items-center { align-items: center; }
+
+.justify-center { justify-content: center; }
+
+.justify-between { justify-content: space-between; }
+
+.gap-4 { gap: var(--space-4); }
+
+.gap-8 { gap: var(--space-8); }
+
+.gap-16 { gap: var(--space-16); }
+
+.m-0 { margin: 0px; }
+
+.mt-8 { margin-top: var(--space-8); }
+
+.mb-8 { margin-bottom: var(--space-8); }
+
+.mx-8 { margin-left: var(--space-8); margin-right: var(--space-8); }
+
+.my-8 { margin-top: var(--space-8); margin-bottom: var(--space-8); }
+
+.p-0 { padding: 0px; }
+
+.py-8 { padding-top: var(--space-8); padding-bottom: var(--space-8); }
+
+.px-8 { padding-left: var(--space-8); padding-right: var(--space-8); }
+
+.py-16 { padding-top: var(--space-16); padding-bottom: var(--space-16); }
+
+.px-16 { padding-left: var(--space-16); padding-right: var(--space-16); }
+
+.block { display: block; }
+
+.hidden { display: none; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; }
+
+:focus-visible { outline: var(--focus-outline); outline-offset: 2px; }
+
+[data-color-scheme="dark"] .btn--outline { border: 1px solid var(--color-border-secondary); }
+
+@font-face { font-family: FKGroteskNeue; src: url("https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2") format("woff2"); }
+
+:root { --gaming-neon-blue: #00ddff; --gaming-electric-purple: #a855f7; --gaming-bright-green: #10b981; --gaming-dark-bg: #0a0a0a; --gaming-card-bg: rgba(26, 26, 26, 0.8); --gaming-accent: #ff6b35; --gaming-gold: #ffd700; --gaming-silver: #c0c0c0; --gaming-bronze: #cd7f32; --gaming-red: #ff2d55; --gaming-orange: #ff9500; --gaming-glow: 0 0 20px rgba(0, 221, 255, 0.3); --gaming-glow-purple: 0 0 20px rgba(168, 85, 247, 0.3); --gaming-glow-green: 0 0 20px rgba(16, 185, 129, 0.3); }
+
+[data-color-scheme="dark"], body { --color-background: var(--gaming-dark-bg); --color-surface: var(--gaming-card-bg); --color-primary: var(--gaming-neon-blue); --color-primary-hover: var(--gaming-electric-purple); }
+
+body { background: linear-gradient(135deg, rgb(10, 10, 10) 0%, rgb(26, 26, 26) 100%); color: var(--color-text); overflow-x: hidden; }
+
+.navbar { background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(20px); border-bottom: 1px solid var(--color-border); position: sticky; top: 0px; z-index: 1000; padding: var(--space-16) 0; }
+
+.navbar .container { display: flex; justify-content: space-between; align-items: center; }
+
+.nav-brand h1 { font-size: var(--font-size-3xl); margin: 0px; background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-color: ; -webkit-text-fill-color: transparent; background-clip: text; text-shadow: rgba(0, 221, 255, 0.5) 0px 0px 30px; }
+
+.nav-brand .tagline { font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-left: var(--space-8); }
+
+.nav-controls { display: flex; align-items: center; gap: var(--space-16); }
+
+.search-input { background: rgba(255, 255, 255, 0.1); border: 1px solid var(--color-border); border-radius: var(--radius-full); padding: var(--space-8) var(--space-16); color: var(--color-text); font-size: var(--font-size-sm); width: 250px; transition: all var(--duration-normal) var(--ease-standard); }
+
+.search-input:focus { background: rgba(255, 255, 255, 0.15); border-color: var(--gaming-neon-blue); box-shadow: var(--gaming-glow); outline: none; }
+
+.search-input::placeholder { color: var(--color-text-secondary); }
+
+.ad-container { display: flex; justify-content: center; margin: var(--space-16) 0; }
+
+.ad-placeholder { background: var(--color-bg-1); border: 2px dashed var(--color-border); border-radius: var(--radius-base); padding: var(--space-16); text-align: center; color: var(--color-text-secondary); font-size: var(--font-size-sm); }
+
+.header-ad .ad-placeholder { width: 728px; height: 90px; display: flex; align-items: center; justify-content: center; }
+
+.sidebar-ad .ad-placeholder { width: 300px; height: 250px; display: flex; align-items: center; justify-content: center; }
+
+.footer-ad .ad-placeholder { width: 728px; height: 90px; display: flex; align-items: center; justify-content: center; }
+
+.between-games-ad .ad-placeholder { width: 728px; height: 90px; display: flex; align-items: center; justify-content: center; }
+
+.hero { background: linear-gradient(135deg, rgba(0, 221, 255, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%); padding: var(--space-32) 0; margin-bottom: var(--space-32); position: relative; overflow: hidden; }
+
+.hero::before { content: ""; position: absolute; inset: 0px; background: url("data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><defs><pattern id=\"grid\" width=\"10\" height=\"10\" patternUnits=\"userSpaceOnUse\"><path d=\"M 10 0 L 0 0 0 10\" fill=\"none\" stroke=\"rgba(0,221,255,0.1)\" stroke-width=\"0.5\"/></pattern></defs><rect width=\"100\" height=\"100\" fill=\"url(%23grid)\"/></svg>"); opacity: 0.5; }
+
+.hero-content { text-align: center; position: relative; z-index: 1; }
+
+.hero-title { font-size: clamp(2rem, 5vw, 4rem); margin-bottom: var(--space-16); background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-color: ; -webkit-text-fill-color: transparent; background-clip: text; animation: 3s ease-in-out 0s infinite alternate none running heroGlow; }
+
+.hero-subtitle { font-size: var(--font-size-xl); color: var(--color-text-secondary); margin-bottom: var(--space-32); max-width: 600px; margin-left: auto; margin-right: auto; }
+
+.hero-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: var(--space-24); max-width: 600px; margin: 0px auto; }
+
+.stat { text-align: center; background: rgba(255, 255, 255, 0.05); border-radius: var(--radius-lg); padding: var(--space-20); border: 1px solid var(--color-border); transition: all var(--duration-normal) var(--ease-standard); }
+
+.stat:hover { transform: translateY(-4px); box-shadow: var(--gaming-glow); border-color: var(--gaming-neon-blue); }
+
+.stat-number { display: block; font-size: var(--font-size-4xl); font-weight: var(--font-weight-bold); color: var(--gaming-neon-blue); margin-bottom: var(--space-4); }
+
+.stat-label { font-size: var(--font-size-md); color: var(--color-text-secondary); }
+
+@keyframes heroGlow { 
+  0% { filter: drop-shadow(rgba(0, 221, 255, 0.5) 0px 0px 20px); }
+  100% { filter: drop-shadow(rgba(168, 85, 247, 0.8) 0px 0px 30px); }
+}
+
+.category-filter { display: flex; gap: var(--space-12); margin-bottom: var(--space-32); padding: 0 var(--space-16); overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--gaming-neon-blue) transparent; }
+
+.filter-btn { background: rgba(255, 255, 255, 0.05); border: 1px solid var(--color-border); border-radius: var(--radius-full); padding: var(--space-12) var(--space-20); color: var(--color-text); font-size: var(--font-size-sm); font-weight: var(--font-weight-medium); cursor: pointer; transition: all var(--duration-normal) var(--ease-standard); white-space: nowrap; flex-shrink: 0; }
+
+.filter-btn:hover { background: rgba(0, 221, 255, 0.1); border-color: var(--gaming-neon-blue); transform: translateY(-2px); }
+
+.filter-btn.active { background: linear-gradient(45deg, var(--gaming-neon-blue), var(--gaming-electric-purple)); border-color: transparent; color: var(--color-white); box-shadow: var(--gaming-glow); }
+
+.main-content { display: grid; grid-template-columns: 320px 1fr; gap: var(--space-32); align-items: start; }
+
+.sidebar { display: flex; flex-direction: column; gap: var(--space-24); position: sticky; top: 120px; }
+
+.recently-played, .favorites { background: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-card-border); padding: var(--space-20); }
+
+.recently-played h3, .favorites h3 { margin: 0 0 var(--space-16) 0; font-size: var(--font-size-lg); color: var(--gaming-neon-blue); }
+
+.recent-games-list, .favorite-games-list { display: flex; flex-direction: column; gap: var(--space-8); }
+
+.recent-game-item, .favorite-game-item { display: flex; align-items: center; gap: var(--space-8); padding: var(--space-8); background: rgba(255, 255, 255, 0.03); border-radius: var(--radius-base); cursor: pointer; transition: all var(--duration-fast) var(--ease-standard); }
+
+.recent-game-item:hover, .favorite-game-item:hover { background: rgba(0, 221, 255, 0.1); transform: translateX(4px); }
+
+.games-section { min-height: 100vh; }
+
+.games-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: var(--space-20); margin-bottom: var(--space-32); }
+
+.game-card { background: linear-gradient(145deg, rgba(26, 26, 26, 0.9), rgba(40, 40, 40, 0.6)); border: 1px solid var(--color-card-border); border-radius: var(--radius-lg); padding: var(--space-20); cursor: pointer; transition: all var(--duration-normal) var(--ease-standard); position: relative; overflow: hidden; backdrop-filter: blur(10px); }
+
+.game-card::before { content: ""; position: absolute; inset: 0px; background: linear-gradient(45deg, transparent, rgba(0, 221, 255, 0.03), transparent); opacity: 0; transition: opacity var(--duration-normal) var(--ease-standard); }
+
+.game-card:hover::before { opacity: 1; }
+
+.game-card:hover { transform: translateY(-8px) scale(1.02); box-shadow: rgba(0, 0, 0, 0.3) 0px 20px 40px, rgba(0, 221, 255, 0.2) 0px 0px 40px; border-color: var(--gaming-neon-blue); }
+
+.game-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-16); }
+
+.game-icon { font-size: 3rem; filter: drop-shadow(rgba(0, 221, 255, 0.3) 0px 0px 10px); transition: all var(--duration-normal) var(--ease-standard); }
+
+.game-card:hover .game-icon { transform: scale(1.1) rotate(5deg); filter: drop-shadow(rgba(0, 221, 255, 0.6) 0px 0px 20px); }
+
+.favorite-btn { background: transparent; border: none; font-size: var(--font-size-xl); color: var(--color-text-secondary); cursor: pointer; padding: var(--space-4); border-radius: 50%; transition: all var(--duration-fast) var(--ease-standard); }
+
+.favorite-btn:hover { color: var(--gaming-red); transform: scale(1.2); }
+
+.favorite-btn.favorited { color: var(--gaming-red); animation: 0.6s ease-in-out 0s 1 normal none running heartBeat; }
+
+@keyframes heartBeat { 
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+.game-card h3 { font-size: var(--font-size-xl); margin: 0 0 var(--space-8) 0; color: var(--color-text); font-weight: var(--font-weight-semibold); }
+
+.game-card p { color: var(--color-text-secondary); font-size: var(--font-size-sm); margin: 0 0 var(--space-12) 0; line-height: 1.4; }
+
+.game-badges { display: flex; gap: var(--space-6); flex-wrap: wrap; }
+
+.badge { background: rgba(0, 221, 255, 0.2); color: var(--gaming-neon-blue); padding: var(--space-4) var(--space-8); border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: var(--font-weight-medium); border: 1px solid rgba(0, 221, 255, 0.3); }
+
+.screen { min-height: 100vh; padding: var(--space-16); }
+
+.screen.hidden { display: none; }
+
+.game-header { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--space-20); margin-bottom: var(--space-24); padding: var(--space-20); background: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-card-border); }
+
+.game-header-center { text-align: center; }
+
+.game-header h2 { margin: 0 0 var(--space-8) 0; font-size: var(--font-size-2xl); color: var(--gaming-neon-blue); }
+
+.game-mode-selector { display: flex; gap: var(--space-8); justify-content: center; }
+
+.game-mode-selector .btn { padding: var(--space-6) var(--space-12); font-size: var(--font-size-sm); }
+
+.game-mode-selector .btn.active { background: var(--gaming-neon-blue); color: var(--color-white); border-color: var(--gaming-neon-blue); }
+
+.game-header-right { text-align: right; }
+
+.score, .timer { font-size: var(--font-size-lg); font-weight: var(--font-weight-bold); color: var(--gaming-bright-green); margin-bottom: var(--space-4); text-shadow: rgba(16, 185, 129, 0.5) 0px 0px 10px; }
+
+.timer { color: var(--gaming-orange); text-shadow: rgba(255, 149, 0, 0.5) 0px 0px 10px; }
+
+.game-container { background: var(--color-surface); border-radius: var(--radius-lg); border: 1px solid var(--color-card-border); padding: var(--space-24); min-height: 600px; display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative; }
+
+.game-board { background: rgba(0, 0, 0, 0.3); border-radius: var(--radius-base); padding: var(--space-16); box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 8px inset; }
+
+.game-cell { background: var(--color-bg-2); border: 2px solid var(--color-border); border-radius: var(--radius-base); cursor: pointer; transition: all var(--duration-fast) var(--ease-standard); display: flex; align-items: center; justify-content: center; font-weight: var(--font-weight-bold); }
+
+.game-cell:hover { background: var(--color-bg-3); transform: scale(1.05); border-color: var(--gaming-neon-blue); box-shadow: rgba(0, 221, 255, 0.3) 0px 0px 15px; }
+
+.game-controls { text-align: center; margin: var(--space-24) 0; }
+
+.game-info { background: var(--color-bg-1); border-radius: var(--radius-base); padding: var(--space-16); margin: var(--space-16) 0; text-align: center; border: 1px solid var(--color-border); }
+
+.game-status { font-size: var(--font-size-lg); font-weight: var(--font-weight-bold); margin: var(--space-8) 0; }
+
+.game-status.win { color: var(--gaming-bright-green); text-shadow: rgba(16, 185, 129, 0.8) 0px 0px 10px; animation: 1s ease-in-out 0s infinite alternate none running winPulse; }
+
+.game-status.lose { color: var(--gaming-red); text-shadow: rgba(255, 45, 85, 0.8) 0px 0px 10px; }
+
+.game-status.draw { color: var(--gaming-orange); text-shadow: rgba(255, 149, 0, 0.8) 0px 0px 10px; }
+
+@keyframes winPulse { 
+  0% { transform: scale(1); }
+  100% { transform: scale(1.05); }
+}
+
+canvas { border: 2px solid var(--gaming-neon-blue); border-radius: var(--radius-base); box-shadow: rgba(0, 221, 255, 0.3) 0px 0px 20px; background: rgb(0, 0, 0); }
+
+.btn { position: relative; overflow: hidden; font-weight: var(--font-weight-medium); }
+
+.btn::before { content: ""; position: absolute; top: 0px; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent); transition: left 0.5s; }
+
+.btn:hover::before { left: 100%; }
+
+.btn--primary { background: linear-gradient(45deg, var(--gaming-neon-blue), var(--gaming-electric-purple)); border: none; box-shadow: rgba(0, 221, 255, 0.3) 0px 4px 15px; }
+
+.btn--primary:hover { box-shadow: rgba(0, 221, 255, 0.5) 0px 6px 25px; transform: translateY(-2px); }
+
+.footer { background: linear-gradient(135deg, rgb(10, 10, 10) 0%, rgb(26, 26, 26) 100%); border-top: 1px solid var(--color-border); padding: var(--space-32) 0 var(--space-16) 0; margin-top: var(--space-32); }
+
+.footer-content { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-32); margin-bottom: var(--space-32); }
+
+.footer-section h3, .footer-section h4 { color: var(--gaming-neon-blue); margin-bottom: var(--space-16); }
+
+.footer-section ul { list-style: none; padding: 0px; margin: 0px; }
+
+.footer-section ul li { margin-bottom: var(--space-8); }
+
+.footer-section ul li a { color: var(--color-text-secondary); text-decoration: none; transition: color var(--duration-fast) var(--ease-standard); }
+
+.footer-section ul li a:hover { color: var(--gaming-neon-blue); }
+
+.footer-section ol { color: var(--color-text-secondary); padding-left: var(--space-16); }
+
+.footer-section ol li { margin-bottom: var(--space-4); }
+
+.footer-bottom { text-align: center; padding-top: var(--space-24); border-top: 1px solid var(--color-border); color: var(--color-text-secondary); }
+
+.footer-bottom p { margin: var(--space-4) 0; }
+
+@media (max-width: 1024px) {
+  .main-content { grid-template-columns: 1fr; }
+  .sidebar { position: static; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--space-16); }
+  .games-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--space-16); }
+}
+
+@media (max-width: 768px) {
+  .navbar .container { flex-direction: column; gap: var(--space-16); }
+  .nav-brand { text-align: center; }
+  .search-input { width: 200px; }
+  .hero-stats { grid-template-columns: 1fr; max-width: 300px; }
+  .category-filter { justify-content: center; }
+  .games-grid { grid-template-columns: 1fr; }
+  .game-header { grid-template-columns: 1fr; text-align: center; gap: var(--space-12); }
+  .game-header-right { text-align: center; }
+  .ad-placeholder { font-size: var(--font-size-xs); padding: var(--space-8); }
+  .header-ad .ad-placeholder, .footer-ad .ad-placeholder, .between-games-ad .ad-placeholder { width: 320px; height: 50px; }
+  .sidebar-ad .ad-placeholder { width: 300px; height: 200px; }
+}
+
+@media (max-width: 480px) {
+  .hero { padding: var(--space-20) 0; }
+  .hero-title { font-size: var(--font-size-3xl); }
+  .hero-subtitle { font-size: var(--font-size-lg); }
+  .filter-btn { font-size: var(--font-size-xs); padding: var(--space-8) var(--space-12); }
+  .game-card { padding: var(--space-16); }
+  .game-icon { font-size: 2.5rem; }
+  .search-input { width: 150px; font-size: var(--font-size-xs); }
+}
+
+#darkModeToggle { background: rgba(255, 255, 255, 0.1); border: 1px solid var(--color-border); color: var(--color-text); font-size: var(--font-size-lg); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all var(--duration-normal) var(--ease-standard); }
+
+#darkModeToggle:hover { background: rgba(255, 255, 255, 0.2); transform: rotate(180deg); }
+
+.loading { display: inline-block; width: 40px; height: 40px; border-width: 3px; border-style: solid; border-right-color: rgba(0, 221, 255, 0.3); border-bottom-color: rgba(0, 221, 255, 0.3); border-left-color: rgba(0, 221, 255, 0.3); border-image: initial; border-radius: 50%; border-top-color: var(--gaming-neon-blue); animation: 1s ease-in-out 0s infinite normal none running spin; }
+
+@keyframes spin { 
+  100% { transform: rotate(360deg); }
+}
+
+.text-center { text-align: center; }
+
+.text-secondary { color: var(--color-text-secondary); }
+
+.hidden { display: none !important; }
+
+.visible { display: block !important; }
+
+.tic-tac-toe-board { display: grid; grid-template-columns: repeat(3, 100px); grid-template-rows: repeat(3, 100px); gap: var(--space-4); margin: var(--space-16) 0; }
+
+.connect-four-board { display: grid; grid-template-columns: repeat(7, 60px); grid-template-rows: repeat(6, 60px); gap: var(--space-4); background: var(--color-bg-6); padding: var(--space-8); border-radius: var(--radius-base); margin: var(--space-16) 0; }
+
+.memory-board { display: grid; grid-template-columns: repeat(4, 80px); grid-template-rows: repeat(4, 80px); gap: var(--space-8); margin: var(--space-16) 0; }
+
+.puzzle-2048-board { display: grid; grid-template-columns: repeat(4, 80px); grid-template-rows: repeat(4, 80px); gap: var(--space-4); background: var(--color-bg-5); padding: var(--space-8); border-radius: var(--radius-base); margin: var(--space-16) 0; }
+
+@media (max-width: 768px) {
+  .tic-tac-toe-board { grid-template-columns: repeat(3, 80px); grid-template-rows: repeat(3, 80px); }
+  .connect-four-board { grid-template-columns: repeat(7, 45px); grid-template-rows: repeat(6, 45px); }
+  .memory-board { grid-template-columns: repeat(4, 60px); grid-template-rows: repeat(4, 60px); }
+  .puzzle-2048-board { grid-template-columns: repeat(4, 60px); grid-template-rows: repeat(4, 60px); }
+}
+------MultipartBoundary--zqb1YGpZ19kNKTpBkB71J0a5fP4PP9FEzah1b1e9vw------
